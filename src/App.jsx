@@ -44,8 +44,8 @@ function App() {
     <TodoContextProvider
       value={{ todos, addTodo, updateTodo, deleteTodo, toggleComplete }}
     >
-      <div className="w-full h-screen  flex justify-center items-start bg-slate-800">
-        <div className=" text-white text-center w-[60%] max-h-[60%] mt-10 rounded-lg  h-fit  bg-black ">
+      <div className="w-full h-screen  flex justify-center p-3 items-start bg-slate-800">
+        <div className=" text-white text-center w-full sm:w-[60%] max-h-[60%] mt-10 rounded-lg  h-fit  bg-black ">
           <h1 className="text-2xl mt-3 uppercase font-semibold" >Todos</h1>
           <div className="input-box " >
             <TodoForm/>
